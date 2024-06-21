@@ -1,0 +1,26 @@
+.side-nav {
+  background-color: aliceblue;
+}
+
+li:hover {
+  opacity: 0.5;
+}
+
+ul {
+  font-size: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

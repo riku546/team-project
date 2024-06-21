@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <title>ラーメンサイト</title>
+</head>
+<style>
+  main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+  }
+
+  .side-nav {
+    background-color: aliceblue
+  }
+
+  li:hover {
+    opacity: 0.5;
+
+  }
+
+  ul {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .flexLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-direction: column;
+  }
+
+  .gridLayout {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-img-top {}
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+</style>
+
+<body>
+
+  <main>
+
+      <nav class="side-nav">
+      <ul>
+        <li><a href=".Home.html">Home</a></li>
+        <li><a href="akabane.html">赤羽エリア</a></li>
+        <li><a href="ikebukuro.html">池袋エリア</a></li>
+        <li><a href="miso.html">エリア</a></li>
+        <li><a href="tonkotu.html">エリア</a></li>
+      </ul>
+    </nav>
+    <div class="flexLayout">
+      <h1>ラーメン紹介サイト</h1>
+      <div class="gridLayout">
+        <a href="akabane.html">
+          <div class="card" style="width: 23rem;">
+            <img src="./img/しおラーメン.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">赤羽エリア</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="ikebukuro.html">
+          <div class="card" style="width: 25rem;">
+            <img src="./img/醬油ラーメン.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">池袋エリア</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="miso.html">
+          <div class="card" style="width: 25rem;">
+            <img src="./img/味噌ラーメン.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </a>
+        <a href="tonkotu.html">
+          <div class="card" style="width: 25rem;">
+            <img src="./img/豚骨.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
