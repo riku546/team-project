@@ -1,0 +1,48 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+  }
+
+  .side-nav {
+    background-color: aliceblue
+  }
+
+  li:hover {
+    opacity: 0.5;
+
+  }
+
+  ul {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .flexLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-direction: column;
+  }
+
+  .gridLayout {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-img-top {}
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .card{
+    width: 400px;
+    
+  }
