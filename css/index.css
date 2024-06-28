@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -5,7 +10,9 @@ main {
   }
 
   .side-nav {
-    background-color: aliceblue
+    background-color: aliceblue;
+    width: 220px;
+
   }
 
   li:hover {
@@ -35,7 +42,6 @@ main {
     grid-template-columns: 1fr 1fr;
   }
 
-  .card-img-top {}
 
   a {
     text-decoration: none;
@@ -43,6 +49,6 @@ main {
   }
 
   .card{
-    width: 600px;
+    width: 400px;
     
   }
