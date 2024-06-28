@@ -1,0 +1,51 @@
+body{
+
+}
+
+.side-nav {
+    background-color: aliceblue
+}
+
+ul {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main{
+
+}
+
+.subtitle{
+
+}
+
+.content{
+
+}
+
+.third{
+
+}
+
+.second{
+
+}
+
+.first{
+
+}
+
+.tenmei{
+
+}
+
+.pic{
+
+}
+
+p{
+
+}
