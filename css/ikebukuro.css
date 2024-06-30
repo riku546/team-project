@@ -1,13 +1,15 @@
-body{
-
+#container{
+    display: flex;
+    flex-direction: row;
 }
 
-.side-nav {
+.sideber {
+    width: 20%;
+    margin: 10px 0 10px 0;
     background-color: aliceblue
 }
 
-ul {
-    font-size: 30px;
+ul {font-size: 30px;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -15,9 +17,11 @@ ul {
 }
 
 .main{
-
+    width: 80%;
+    margin: 10px 0 10px 0;
 }
 
+/*
 .subtitle{
 
 }
@@ -37,11 +41,15 @@ ul {
 .first{
 
 }
+*/
 
 .tenmei{
-
+    background-color: #ff0000e0;
+    padding: 16px;
+    color: #FFFFFF;
 }
 
+/*
 .pic{
 
 }
@@ -49,3 +57,4 @@ ul {
 p{
 
 }
+*/
